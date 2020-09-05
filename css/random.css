@@ -1,0 +1,82 @@
+#Random
+{
+    border: none;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 78%;
+    font-family:'Courier New', Courier, monospace;
+    box-shadow: -4px -4px 10px rgba(255, 255, 255,1),inset 4px 4px 10px rgba(0, 0, 0,0.05),inset -4px -4px 10px rgba(255, 255, 255,1), 4px 4px 10px rgba(0, 0, 0, 0.09);
+    letter-spacing: 4px;
+    border-radius: 5px;
+    font-size: 20px;
+
+}
+.randomArea
+{
+    width: 600px;
+    position: relative;
+    overflow: hidden;
+    margin: 20% auto;
+   
+    
+}
+#Copy:active
+{
+  color: black;
+  
+}
+#button
+{
+    position: absolute;
+    right:150px;
+    top: 12px;
+    color: rgb(172, 167, 167);
+    font-family: cursive;
+    cursor: pointer;
+    user-select: none;
+
+}
+.desc
+{
+    width: 1200px;
+    margin:auto
+}
+body{
+    font-family: cursive;
+}
+ul
+{
+    margin: 0;
+}
+ul li 
+{
+    list-style-type: "@.  ";
+}
+#copied
+{
+    display: none;
+}
+
+span:active
+{
+    color: rgb(0, 0, 0);
+}
+
+button
+{
+    width:20%;
+    padding: 10px;
+    background-color: rgb(73, 73, 73);
+    color: white;
+    cursor: pointer;
+    border: none;
+    font-family:'Courier New', Courier, monospace;
+    border: 1px solid currentColor;
+    font-size: 20px;
+    
+    
+}
+button:active
+{
+    background-color: darkmagenta;
+}
